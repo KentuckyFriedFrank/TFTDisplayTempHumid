@@ -1,0 +1,13 @@
+TouchScreen	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+isTouching	KEYWORD2
+pressure	KEYWORD2
+readTouchY	KEYWORD2
+readTouchX	KEYWORD2
+getPoint	KEYWORD2
+Point	KEYWORD2
+pressureThreshhold	KEYWORD2

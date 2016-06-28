@@ -1,0 +1,29 @@
+http://www.kickstarter.com/projects/paulstoffregen/teensy-30-32-bit-arm-cortex-m4-usable-in-arduino-a/posts?page=1
+http://cache.freescale.com/files/32bit/doc/data_sheet/K20P64M50SF0.pdf
+http://www.tall-dog.com/
+http://forum.pjrc.com/threads/16798-2-8-quot-TFT-touchscreen-Teensy-3-0?p=21431&viewfull=1#post21431
+http://forum.pjrc.com/threads/17532-Tutorial-on-digital-I-O-ATMega-PIN-PORT-DDR-D-B-registers-vs-ARM-GPIO_PDIR-_PDOR
+http://www.pjrc.com/teensy/schematic3.gif
+http://www.pjrc.com/teensy/K20P64M50SF0RM.pdf
+http://learn.adafruit.com/2-8-tft-touchscreen/overview
+
+  #define setWriteDirInline() { \     //the data pins 0-7 are connected to these teensy 3 pins
+    pinMode(2, OUTPUT); \
+    pinMode(14, OUTPUT); \
+    pinMode(7, OUTPUT); \
+    pinMode(8, OUTPUT); \
+    pinMode(6, OUTPUT); \
+    pinMode(20, OUTPUT); \
+    pinMode(21, OUTPUT); \
+    pinMode(5, OUTPUT); }     //data7 of tft to pin5 of teensy3
+    
+    control pins are connected:
+#define LCD_CS 12 // Chip Select goes to Analog 3
+#define LCD_CD 11 // Command/Data goes to Analog 2
+#define LCD_WR 10 // LCD Write goes to Analog 1
+#define LCD_RD 9 // LCD Read goes to Analog 0--A8 on teensy3,14 is A0 and is on the port we use
+
+#define XP A0   // can be a digital pin and can reuse pins  A0 = 14
+#define YP A2  // must be an analog pin, use "An" notation!
+#define XM A3  // must be an analog pin, use "An" notation!
+#define YM 21   // can be a digital pin and can reuse pins

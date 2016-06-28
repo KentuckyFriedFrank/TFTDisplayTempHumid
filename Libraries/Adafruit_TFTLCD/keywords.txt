@@ -1,0 +1,70 @@
+#######################################
+# Syntax Coloring Map For LiquidCrystal
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Adafruit_TFTLCD	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+drawPixel	KEYWORD2
+invertDisplay	KEYWORD2
+drawLine	KEYWORD2
+drawFastVLine	KEYWORD2
+drawFastHLine	KEYWORD2
+drawRect	KEYWORD2
+fillRect	KEYWORD2
+fillScreen	KEYWORD2
+drawCircle	KEYWORD2
+drawCircleHelper	KEYWORD2
+fillCircle	KEYWORD2
+fillCircleHelper	KEYWORD2
+drawTriangle	KEYWORD2
+fillTriangle	KEYWORD2
+drawRoundRect	KEYWORD2
+fillRoundRect	KEYWORD2
+drawBitmap	KEYWORD2
+drawChar	KEYWORD2
+write	KEYWORD2
+setCursor	KEYWORD2
+setTextColor	KEYWORD2
+setTextSize	KEYWORD2
+setTextWrap	KEYWORD2
+
+height	KEYWORD2
+width	KEYWORD2
+setRotation	KEYWORD2
+getRotation	KEYWORD2
+setCursor	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+TFTLCD_BLACK	LITERAL1
+TFTLCD_WHITE	LITERAL1
+TFTLCD_BLUE	LITERAL1
+TFTLCD_RED	LITERAL1
+TFTLCD_GREEN	LITERAL1
+TFTLCD_CYAN	LITERAL1
+TFTLCD_MAGENTA	LITERAL1
+TFTLCD_YELLOW	LITERAL1
+TFTLCD_ORANGE	LITERAL1
+TFTLCD_PURPLE	LITERAL1
+TFTLCD_SIENNA	LITERAL1
+TFTLCD_NEONYELLOW	LITERAL1
+TFTLCD_EMERALD	LITERAL1
+TFTLCD_BLUE3	LITERAL1
+TFTLCD_ROYALBLUE	LITERAL1
+TFTLCD_BROWN2	LITERAL1
+TFTLCD_PINK		LITERAL1
+TFTLCD_DKPINK		KEYWORD2
+TFTLCD_BROWN1		KEYWORD2
+TFTLCD_OLIVE		KEYWORD2
+
